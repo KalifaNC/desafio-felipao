@@ -9,10 +9,16 @@ switch (xp<0) {
     console.log("Bronze");
     break;
     case (xp>=2001 && xp<5000):
-    console.log("Prata Ouro");
+    console.log("Prata");
     break;
-    case (xp>=5001 && xp<8000):
-    console.log("Platina Diamante");
+    case (xp>=5001 && xp<6000):
+    console.log("Ouro");
+    break;    
+    case (xp>=6001 && xp<7000):
+    console.log("Platina");
+    break;
+    case (xp>=7001 && xp<8000):
+    console.log("Diamante");
     break;
     case (xp>=8001 && xp<9000):
     console.log("Ascendente");
